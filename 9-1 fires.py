@@ -34,3 +34,4 @@ fig = {"data": data, "layout": my_layout}
 offline.plot(fig, filename="globalearthquake3day.html")
 print(brightns)
 print(lon)
+ 
