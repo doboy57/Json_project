@@ -25,13 +25,13 @@ data = [
             "color": brightns,
             "colorscale": "Viridis",
             "reversescale": True,
-            "colorbar": {"title": "Mangnitude"},
+            "colorbar": {"title": "Brightness"},
         },
     }
 ]
-my_layout = Layout(title="Global Earthquake 3 day")
+my_layout = Layout(title="US Fires - 9/1/2020 through 9/13/2020")
 fig = {"data": data, "layout": my_layout}
-offline.plot(fig, filename="globalearthquake3day.html")
+offline.plot(fig, filename="USFIRES91913.html")
 print(brightns)
 print(lon)
  
